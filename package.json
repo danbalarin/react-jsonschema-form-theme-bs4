@@ -1,0 +1,38 @@
+{
+  "name": "react-jsonschema-form-theme-bs4",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 theme for react-jsonschema-form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenny11CZ/react-jsonschema-form-theme-bs4.git"
+  },
+  "peerDependencies": {
+    "react": ">=15"
+  },
+  "dependencies": {
+    "ajv": "^6.7.0",
+    "core-js": "^2.5.7",
+    "lodash.topath": "^4.5.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.0",
+    "reactstrap": "^7.1.0"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "theme",
+    "react-jsonschema-form",
+    "jsonschema",
+    "form"
+  ],
+  "author": "Dan Balarin <dan.balarin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenny11CZ/react-jsonschema-form-theme-bs4/issues"
+  },
+  "homepage": "https://github.com/Kenny11CZ/react-jsonschema-form-theme-bs4#readme"
+}
