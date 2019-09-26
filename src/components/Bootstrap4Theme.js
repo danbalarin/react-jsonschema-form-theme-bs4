@@ -1,10 +1,9 @@
 import widgets from './widgets/';
 // // import Templates from './Templates';
-import Fields from './fields/';
+import fields from './fields/';
 
 import React, { Component } from 'react'
 import Form from "react-jsonschema-form";
-
 
 export class Bootstrap4Theme extends Component {
     constructor(props) {
@@ -39,5 +38,5 @@ export class Bootstrap4Theme extends Component {
 export default {
     // form: Bootstrap4Theme, 
     widgets: widgets,
-    Fields: Fields,
+    fields: fields,
 }
