@@ -1,38 +1,56 @@
 {
   "name": "react-jsonschema-form-theme-bs4",
-  "version": "1.0.0",
+  "author": "Dan Balarin <dan.balarin@gmail.com>",
+  "contributors": [
+    "Dan Balarin <dan.balarin@gmail.com>",
+    "Kenneth Ormandy <hello@kennethormandy.com>"
+  ],
+  "version": "0.2.0",
   "description": "Bootstrap 4 theme for react-jsonschema-form",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kenny11CZ/react-jsonschema-form-theme-bs4.git"
-  },
-  "peerDependencies": {
-    "react": ">=15"
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "prepublishOnly": "npm run build",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
   },
   "dependencies": {
     "ajv": "^6.7.0",
     "core-js": "^2.5.7",
     "lodash.topath": "^4.5.2",
-    "prop-types": "^15.5.8",
-    "react": "^15.5.0",
+    "prop-types": "15.7.2",
     "reactstrap": "^7.1.0"
   },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-jsonschema-form": "^1.8.0"
+  },
+  "devDependencies": {
+    "nwb": "0.23.x",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-jsonschema-form": "1.8.0"
+  },
+  "homepage": "https://github.com/danbalarin/react-jsonschema-form-theme-bs4/",
+  "license": "ISC",
+  "repository": "https://github.com/danbalarin/react-jsonschema-form-theme-bs4/",
   "keywords": [
     "react",
+    "react-component",
     "bootstrap",
     "theme",
     "react-jsonschema-form",
     "jsonschema",
     "form"
-  ],
-  "author": "Dan Balarin <dan.balarin@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Kenny11CZ/react-jsonschema-form-theme-bs4/issues"
-  },
-  "homepage": "https://github.com/Kenny11CZ/react-jsonschema-form-theme-bs4#readme"
+  ]
 }
