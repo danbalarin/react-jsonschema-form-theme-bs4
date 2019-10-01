@@ -5,7 +5,7 @@
     "Dan Balarin <dan.balarin@gmail.com>",
     "Kenneth Ormandy <hello@kennethormandy.com>"
   ],
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Bootstrap 4 theme for react-jsonschema-form",
   "main": "lib/index.js",
   "module": "es/index.js",
