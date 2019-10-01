@@ -1,6 +1,6 @@
-import widgets from './widgets/';
+import widgets from './widgets/index.js';
 // // import Templates from './Templates';
-import fields from './fields/';
+import fields from './fields/index.js';
 
 import React, { Component } from 'react'
 import Form from "react-jsonschema-form";
