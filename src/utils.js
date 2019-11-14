@@ -2,6 +2,9 @@ import React from "react";
 import validateFormData from "./validate";
 import fill from "core-js/library/fn/array/fill";
 
+import widgets from './components/widgets/index.js';
+import fields from './components/fields/index.js';
+
 export const ADDITIONAL_PROPERTY_FLAG = "__additional_property";
 
 const widgetMap = {
@@ -58,8 +61,8 @@ const widgetMap = {
 
 export function getDefaultRegistry() {
   return {
-    fields: require("./fields").default,
-    widgets: require("./widgets").default,
+    fields: fields,
+    widgets: widgets,
     definitions: {},
     formContext: {},
   };
