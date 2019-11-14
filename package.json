@@ -11,15 +11,15 @@
     "url": "git+https://github.com/Kenny11CZ/react-jsonschema-form-theme-bs4.git"
   },
   "peerDependencies": {
-    "react": ">=15"
+    "react": ">=16"
   },
   "dependencies": {
     "ajv": "^6.7.0",
-    "core-js": "^2.5.7",
+    "core-js": "^3.3.6",
     "lodash.topath": "^4.5.2",
     "prop-types": "^15.5.8",
-    "react": "^15.5.0",
-    "reactstrap": "^7.1.0"
+    "react": "^16.11.0",
+    "reactstrap": "^8.1.1"
   },
   "keywords": [
     "react",
